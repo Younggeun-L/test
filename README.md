@@ -16,7 +16,7 @@ conda activate test
 ```bash
 pip install -r requirements.txt
 ```
-or
+ or
 ```bash
 pip install numpy
 pip install pillow
@@ -29,11 +29,12 @@ pip install opencv   or   conda install -c conda-forge opencv
 ```
 
 3. Download Pre-train model
-Download Deeplab V3+ Pre-train model from [Deeplab V3+](https://github.com/VainF/DeepLabV3Plus-Pytorch) and put it in DeepLabV3/checkpoints folder
 
-Download MiDaS Pre-train model from [MiDaS](https://github.com/isl-org/MiDaS) and put it in MiDaS/weights folder
+ Download Deeplab V3+ Pre-train model from [Deeplab V3+](https://github.com/VainF/DeepLabV3Plus-Pytorch) and put it in DeepLabV3/checkpoints folder
 
-Download Co-Modulated-GAN Pre-trian model using the command below and put it in checkpoints folder
+ Download MiDaS Pre-train model from [MiDaS](https://github.com/isl-org/MiDaS) and put it in MiDaS/weights folder
+
+ Download Co-Modulated-GAN Pre-trian model using the command below and put it in checkpoints folder
 ```bash
 download places512.sh
 ```
