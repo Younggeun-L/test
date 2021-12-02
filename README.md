@@ -29,10 +29,11 @@ pip install opencv   or   conda install -c conda-forge opencv
 ```
 
 3. Download Pre-train model
-[Deeplab V3+](https://github.com/VainF/DeepLabV3Plus-Pytorch) 
-[MiDaS](https://github.com/isl-org/MiDaS)
+Download Deeplab V3+ Pre-train model from [Deeplab V3+](https://github.com/VainF/DeepLabV3Plus-Pytorch) and put it in DeepLabV3/checkpoints folder
 
-Co-Modulated-GAN
+Download MiDaS Pre-train model from [MiDaS](https://github.com/isl-org/MiDaS) and put it in MiDaS/weights folder
+
+Download Co-Modulated-GAN Pre-trian model using the command below and put it in checkpoints folder
 ```bash
 download places512.sh
 ```
