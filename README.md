@@ -1,5 +1,3 @@
-# test
-
 ## Overview
 
 
@@ -8,8 +6,10 @@
 
 ## Requirements and install
 1. Create virtual environment
+Create virtual environment with python version 3.7. Then Activate your virtual environment
 ```bash
 conda create –n test python=3.7
+conda activate test
 ```
 
 2. Install requirements
@@ -24,13 +24,25 @@ pip install scikit-learn
 pip install tqdm
 pip install matplotlib
 pip install visdom
-pip install opencv   or   conda install -c conda-forge opencv
 pip install timm
+pip install opencv   or   conda install -c conda-forge opencv
 ```
 
+3. Download Pre-train model
+[Deeplab V3+](https://github.com/VainF/DeepLabV3Plus-Pytorch) 
+[MiDaS](https://github.com/isl-org/MiDaS)
 
-1. test.py 부분 사용법 설명 + 이미지
+Co-Modulated-GAN
+```bash
+download places512.sh
+```
+or
+```bash
+download ffhq512.sh
+```
 
+## RUN
+1. test.py
 
 
 
